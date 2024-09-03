@@ -1,0 +1,77 @@
+body {
+  background-color: #f5f5f5;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.menu-lateral {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2a2a4a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #f5f5f5;
+}
+.menu-lateral h1 {
+  color: #f5f5f5;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.menu-lateral .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.menu-lateral .menu a {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.menu-lateral .menu a:hover {
+  text-decoration: underline;
+}
+.main {
+  margin-left: 250px;
+  padding: 20px;
+}
+.main .formato-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main .formato-2 {
+  width: 100%;
+  justify-content: start;
+}
+.formato-2 .local-cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.formato-2 .local-cards .card {
+  width: 300px;
+  border: 1px solid #f5f5f5;
+}
+.formato-2 .local-cards .card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main .formato-3 {
+  margin-top: 20px;
+  width: 100%;
+}
+.formato-3 .fale_conosco {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
